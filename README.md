@@ -5,6 +5,7 @@ Welcome to the College Student Placement Prediction WebApp! This project leverag
 ## Introduction
 
 This web application uses machine learning algorithms to predict whether a student will be placed or not based on their academic and extracurricular performance. It provides insights and visualizations to help understand the factors affecting placement.
+--> Azure AI Internship Project
 
 ## Features
 
@@ -12,41 +13,6 @@ This web application uses machine learning algorithms to predict whether a stude
 - Visualize data distributions and relationships
 - Interactive and user-friendly web interface
 
-## Installation
-
-To get started with the project, follow these steps:
-
-1. **Clone the repository:**
-
-   ```sh
-   git clone https://github.com/chaudharijay/Campus-Placement-Predictor-Webapp-Using-ML.git
-   cd college-placement-prediction
-
-2. Make sure you have Anaconda Navigator installed. Create a new environment using the provided environment.yml file:
-   ```sh
-   conda env create -f environment.yml
-   conda activate college-placement-prediction
-
-## Usage
- 1) Start Jupyter Notebook:
-
-Launch Jupyter Notebook to explore the data and models:
-
-```sh
-jupyter notebook
-```
-
-2) Run the Flask app:
-
-Start the Flask web application:
-
-```sh
-python app.py
-```
-
-3) Open the app:
-
-Open your web browser and go to http://127.0.0.1:5000 to interact with the web application.
 
 ## Technologies Used:
 * Programming Languages: Python, JavaScript
@@ -56,22 +22,32 @@ Open your web browser and go to http://127.0.0.1:5000 to interact with the web a
 * Frontend: HTML, CSS
 * IDE and Tools: Anaconda Navigator, Jupyter Notebook, VS Code
 
-## Contributing
-We welcome contributions from the community. If you would like to contribute, please follow these steps:
+## Machine Learning Model
 
-1.Fork the repository
+- Algorithm: Decision Tree Classifier  
+- Data preprocessing: Categorical encoding for Gender and Stream  
+- Train-test split used for model training  
+- Model saved using `pickle` and integrated into Flask app 
 
-2.Create a new branch (git checkout -b feature-branch)
+## Output
 
-3.Commit your changes (git commit -m 'Add some feature')
+The user enters student details through the web form and the model predicts:
+High → High chances of placement
+Low → Low chances of placement
 
-4.Push to the branch (git push origin feature-branch)
+## How to Run the Project
 
-5.Open a Pull Request
+1. Install required libraries:
+   pip install flask pandas numpy scikit-learn matplotlib seaborn 
 
+2. Train the model:
+   python model.py
 
+3. Run the Flask app:
+   python app.py
 
-
+4. Open in browser:
+   http://127.0.0.1:5000
 
 
 
