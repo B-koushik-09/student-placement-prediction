@@ -5,7 +5,7 @@ Welcome to the College Student Placement Prediction WebApp! This project leverag
 ## Introduction
 
 This web application uses machine learning algorithms to predict whether a student will be placed or not based on their academic and extracurricular performance. It provides insights and visualizations to help understand the factors affecting placement.
---> Azure AI Internship Project
+
 
 ## Features
 
@@ -51,7 +51,7 @@ Low → Low chances of placement
 
 
 
-
+https://www.canva.com/design/DAGGMw0Q4KA/dGucRITOOa67dXWgtQc_rQ/edit
 
 
 
