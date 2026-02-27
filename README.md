@@ -51,7 +51,6 @@ Low → Low chances of placement
 
 
 
-https://www.canva.com/design/DAGGMw0Q4KA/dGucRITOOa67dXWgtQc_rQ/edit
 
 
 
