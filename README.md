@@ -14,8 +14,7 @@ The **Campus Placement Predictor** is a data-driven web application designed to 
 ## 🚀 Key Features
 - **Placement Prediction**: Predicts your placement chances based on 7 key metrics.
 - **Interactive Web Interface**: A clean, responsive UI built with Flask, HTML, and CSS.
-- **Exploratory Data Analysis (EDA)**: Detailed Jupyter notebooks showing data trends and correlations.
-- **Model Fine-Tuning**: Optimized machine learning model for high accuracy.
+- **Comprehensive Data Analysis**: A master Jupyter notebook covering the entire ML pipeline from EDA to Model Saving.
 - **Real-time Results**: Instant feedback based on user-provided data.
 
 ---
@@ -61,8 +60,8 @@ The heart of this application is a **Decision Tree Classifier** trained on a dat
 Campus-Placement-Predictor/
 ├── static/                # CSS and static assets
 ├── templates/             # HTML templates (index, form, output)
-├── EDA .ipynb             # Exploratory Data Analysis notebook
-├── ML Model Fine Tuning.ipynb # Model optimization notebook
+├── Campus Placement Prediction Using ML.ipynb # Master Notebook (EDA + Training)
+├── Papers/                # Research papers and reference documents
 ├── app.py                 # Main Flask application
 ├── model.pkl              # Serialized ML model
 ├── model.py               # Model training script
@@ -78,8 +77,8 @@ Follow these steps to get the project running locally:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/Campus-Placement-Predictor-Webapp-Using-ML.git
-cd Campus-Placement-Predictor-Webapp-Using-ML
+git clone https://github.com/B-koushik-09/student-placement-prediction.git
+cd student-placement-prediction
 ```
 
 ### **2. Set Up Virtual Environment (Recommended)**
@@ -110,13 +109,6 @@ Visit `http://127.0.0.1:5000` in your browser to see the app in action!
 
 ---
 
-## 📸 Screenshots
-*(Add your project screenshots here to make it more appealing)*
-| Home Page | Prediction Form | Prediction Result |
-| :--- | :--- | :--- |
-| ![Home](https://via.placeholder.com/200x120.png?text=Home+Page) | ![Form](https://via.placeholder.com/200x120.png?text=Input+Form) | ![Result](https://via.placeholder.com/200x120.png?text=Result+Page) |
-
----
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -134,6 +126,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📧 Contact
-Your Name - [karthikb.vnr@gmail.com](mailto:karthikb.vnr@gmail.com)  
-Project Link: [https://github.com/your-username/Campus-Placement-Predictor-Webapp-Using-ML](https://github.com/your-username/Campus-Placement-Predictor-Webapp-Using-ML)
+## 📧 Contact 
+Project Link: [https://github.com/B-koushik-09/student-placement-prediction](https://github.com/B-koushik-09/student-placement-prediction)
