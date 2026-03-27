@@ -126,5 +126,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📧 Contact 
-Project Link: [https://github.com/B-koushik-09/student-placement-prediction](https://github.com/B-koushik-09/student-placement-prediction)
+
+## Project Link: 
+[https://student-placement-prediction-7fdw.onrender.com/](https://student-placement-prediction-7fdw.onrender.com/)
